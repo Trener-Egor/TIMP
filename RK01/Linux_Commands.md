@@ -35,8 +35,8 @@ egor@egor-virtual-machine:/Workspace/TAMOF/rk01 find ./cling -type f -name ".cla
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01find ./cling -type d -name "src" -exec sh -c 'find "0" -type f | wc -l'  ;
 0
-Каталога src нет
 ```
+*Каталога src нет*
 ***8. Выписать количество файлов, содержащих слово socket не зависимо от написания:*** 
 ``` 
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01grep -ril socket ./cling | wc -l
