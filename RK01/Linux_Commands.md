@@ -53,11 +53,11 @@ egor@egor-virtual-machine:/Workspace/TAMOF/rk01grep -rioE "Microsoft|Google|Inte
 45
 ```
 ***11. Найти расположение файла LICENSE относительно начала репозитория:***
-./LICENSE (находится в корневой папке репозитория)
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01 find ./cling/ -type f -name "LICENSE.TXT"
 ./cling/LICENSE.TXT 
 ```
+*./LICENSE (находится в корневой папке репозитория)*
 ***12. Вывести строку для файла LICENSE (если она есть), в которой есть аббревиатура BSD, GNU, MIT, APSL, Apache, GPL, AGPL, LGPL*** 
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01cat ./cling/LICENSE.TXT | grep -e "BSD" -e "GNU" -e "MIT" -e "APSL" -e "Apache" -e "GPL" -e "AGPL" -e "LGPL"
