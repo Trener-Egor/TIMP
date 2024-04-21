@@ -1,6 +1,6 @@
 ***1. Название:***
 Cling - The Interactive C++ Interpreter
-***2. Краткое описание проекта: Упрощение программирования баз данных на C++.***
+***2. Краткое описание проекта:***
 ***3. Количество файлов:*** 
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01find cling/ -type f | wc -l
