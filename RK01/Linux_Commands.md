@@ -4,7 +4,7 @@
 
 ***2. Краткое описание проекта:***
 
-Cling — это интерактивный интерпретатор C++, построенный на основе инфраструктуры компилятора Clang и LLVM.
+*Cling — это интерактивный интерпретатор C++, построенный на основе инфраструктуры компилятора Clang и LLVM.*
 
 ***3. Количество файлов:*** 
 ```
@@ -26,11 +26,12 @@ egor@egor-virtual-machine:/Workspace/TAMOF/rk01find ./cling/ -iname ".cpp" -o -i
 ```
 ***6. Найти, если есть файл .clang-format:*** 
 ```
-- .clang-format (находится в корневой папке репозитория)
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01 find ./cling -type f -name ".clang-format"
 ./cling/.clang-format
 ```
-***7.Поиск каталога с именем src***
+*.clang-format (находится в корневой папке репозитория)*
+  
+***7. Поиск каталога с именем src***
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01find ./cling -type d -name "src" -exec sh -c 'find "0" -type f | wc -l'  ;
 0
