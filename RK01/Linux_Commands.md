@@ -58,6 +58,7 @@ egor@egor-virtual-machine:/Workspace/TAMOF/rk01 find ./cling/ -type f -name "LIC
 ./cling/LICENSE.TXT 
 ```
 *./LICENSE (находится в корневой папке репозитория)*
+
 ***12. Вывести строку для файла LICENSE (если она есть), в которой есть аббревиатура BSD, GNU, MIT, APSL, Apache, GPL, AGPL, LGPL*** 
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01cat ./cling/LICENSE.TXT | grep -e "BSD" -e "GNU" -e "MIT" -e "APSL" -e "Apache" -e "GPL" -e "AGPL" -e "LGPL"
