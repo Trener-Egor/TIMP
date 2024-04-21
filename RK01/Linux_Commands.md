@@ -1,6 +1,9 @@
 ***1. Название:***
-Cling - The Interactive C++ Interpreter
+*Cling - The Interactive C++ Interpreter*
+
 ***2. Краткое описание проекта:***
+*Cling — это интерактивный интерпретатор C++, построенный на основе инфраструктуры компилятора Clang и LLVM.*
+
 ***3. Количество файлов:*** 
 ```
 egor@egor-virtual-machine:/Workspace/TAMOF/rk01find cling/ -type f | wc -l
